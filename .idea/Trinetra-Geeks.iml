@@ -6,5 +6,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="blogsite" />
     <orderEntry type="module" module-name="portfolio" />
+    <orderEntry type="module" module-name="Python-Flask-Blog" />
   </component>
 </module>
