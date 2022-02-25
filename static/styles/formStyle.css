@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background: url("/static/images/bg-login.jpg") no-repeat;
+    background-size: cover;
+}
+.login-form{
+    /* border: #fff solid; */
+    padding: 5px;
+    position: absolute;
+    /* margin: auto; */
+    /* height: 50vw; */
+    width: 160px;
+    top: 50%;
+    left: 50%;
+    /* background-size: 100%; */
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+.login-form h2{
+    font-size: 25px;
+    text-transform: uppercase;
+    /* text-align: center; */
+    margin: 20px 0;
+}
+.login-form p{
+    font-size: 15px;
+    margin: 2px 0;
+}
+.login-form input{
+    font-size: 10px;
+    width: 100%;
+    padding: 3px 2px;
+    border: 0;
+    outline: rgba(0, 0, 0, 0.8) solid;
+    border-radius: 5px;
+}
+.login-form button{
+    font-size: 10px;
+    font-weight: bold;
+    margin: 10px 0;
+    padding: 3px 10px;
+    width: 50%;
+    border-radius: 3px;
+    cursor: pointer;
+}
