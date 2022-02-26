@@ -11,6 +11,13 @@ with open('config.json','rt') as f:
 
 params = json.loads(config)["params"]
 
+# books file
+with open('book.json','rt') as f:
+    books=f.read()
+
+book = json.loads(books)["books"]
+print(book['1']['author'])
+
 app=Flask(__name__)
 app.secret_key = 'trinetra-geeks'
 
@@ -18,7 +25,13 @@ app.secret_key = 'trinetra-geeks'
 #extensions
 @app.route("/",methods=['GET','POST'])
 def home():
-    return render_template("index.html")
+    if session['user'] != None:
+        user = session['user']
+    else:
+        user = "no user"
+    return render_template("index.html",user = user)
+
+
 
 @app.route("/login",methods=['GET','POST'])
 def login():
@@ -33,16 +46,66 @@ def login():
             print('done')
             session['user'] = username
             print("session done")
+
+            return redirect("/")
         else:
-            return redirect("/login")
+            flash("user not registered","error")
+            print("user not registered")
+
     return render_template("login.html")
+
+
 
 @app.route("/dashboard")
 def dashboard():
     if (session['user'] in params['admin_users']):
-        return "dashboard"
+        return render_template("dashboard.html",user = session['user'])
     else:
+        flash("you need to login first","suggestion")
+        print("you need to login first","suggestion")
         return redirect("/login")
+
+
+@app.route("/signup",methods=['GET','POST'])
+def signup():
+    if (request.method == 'POST'):
+        username = request.form.get('name')
+        userpass = request.form.get('pass')
+        userpass_confirm = request.form.get('conf_pass')
+        if userpass == userpass_confirm:
+            if username in params['admin_users']:
+                admin_index = params['admin_users'].index(username)
+                flash("Your username is already registered","alert")
+                print("username already registerd")
+                return render_template("signup.html")
+            else:
+                params['admin_users'].append(username)
+                params['admin_passwords'].append(userpass)
+                session['user'] = username
+                print("session done")
+                print("successful")
+                return redirect("/")
+        else:
+            flash("your passwords doesn't match",)
+            print("your pass doesn't match")
+    return render_template("signup.html")
+
+@app.route("/categories")
+def categories():
+    return render_template("categories.html")
+
+@app.route("/logout")
+def logout():
+    session['user'] = None
+    return redirect("/")
+
+
+@app.route("/book/<string:book_no>")
+def books_func(book_no):
+    book_required = book[book_no]
+    return render_template("book.html",book = book_required)
+
+
 
 
 # listening
