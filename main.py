@@ -5,6 +5,7 @@ from flask_mail import Mail
 import smtplib
 
 
+
 # config file
 with open('config.json','rt') as f:
     config=f.read()
@@ -25,10 +26,10 @@ app.secret_key = 'trinetra-geeks'
 #extensions
 @app.route("/",methods=['GET','POST'])
 def home():
-    if session['user'] != None:
+    if 'user' in session:
         user = session['user']
     else:
-        user = "no user"
+        user = "login"
     return render_template("index.html",user = user)
 
 
@@ -58,8 +59,9 @@ def login():
 
 @app.route("/dashboard")
 def dashboard():
-    if (session['user'] in params['admin_users']):
-        return render_template("dashboard.html",user = session['user'])
+    if 'user' in session:
+        if (session['user'] in params['admin_users']):
+            return render_template("dashboard.html",user = session['user'])
     else:
         flash("you need to login first","suggestion")
         print("you need to login first","suggestion")
@@ -96,7 +98,7 @@ def categories():
 
 @app.route("/logout")
 def logout():
-    session['user'] = None
+    session.pop('user')
     return redirect("/")
 
 
