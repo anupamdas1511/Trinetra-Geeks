@@ -1,3 +1,51 @@
 body{
-    background-image: ;
+    /* background-image: url('../images/dash_bg.jpeg'); */
+    /* background: no-repeat; */
+    background-size: 100% 100%;
+    background-position: 0px 0px;
+    /* background: ; */
 }
+
+table, td{
+    /* border: solid 2px; */
+    padding: 20px 60px;
+    margin: auto;
+    font-size: xx-large;
+    color: white;
+    /* padding-top: 200px; */
+}
+
+table{
+    position: relative;
+    top: 200px;
+    left: -50px;
+}
+
+.heading{
+    padding-left: 20px;
+}
+
+td{
+    /* background: #b9c4ce6e; */
+}
+
+#dash_clip{
+    width: 600px;
+    /* margin: auto; */
+    position: relative;
+    top: 360px;
+left: 190px;
+opacity: 0.7;
+}
+
+#logout_bttn{
+    position: absolute;
+    top: 327px;
+    right: 424px;
+}
+
+#logout_bttn button{
+    padding: 10px 20px;
+    font-size: large;
+}
+

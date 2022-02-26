@@ -1,0 +1,9 @@
+.main{
+    width: 60%;
+    background: #75b3e9bb;
+    aspect-ratio: 5/6;
+    margin: 10% auto;
+    border-radius: 82px;
+    box-shadow: 50px -50px #1074d13d;
+
+}

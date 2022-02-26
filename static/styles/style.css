@@ -127,3 +127,22 @@ nav ul a{
 .thumbnails{
     width: 100%;
 }
+
+footer{
+    /* position: absolute; */
+    /* bottom: 0; */
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    display: block;
+}
+footer .rights{
+    padding: 15px;
+    padding-bottom: 0px;
+}
+footer h4{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-weight: normal;
+}
