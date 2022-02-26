@@ -39,3 +39,32 @@ nav ul a{
     width: 40px;
 
 }
+
+.main_window{
+    width: 100%;
+    background: #dee7e7;
+}
+
+.books{
+    width: 70%;
+    background : #cde6e6;
+    margin: auto;
+    padding: 20px;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* overflow-x: scroll; */
+    /* flex-wrap: wrap; */
+}
+
+.section{
+    display: block ruby;
+    overflow-x: scroll;
+}
+
+.one_book{
+    height: 300px;
+    width: 240px;
+    background: purple;
+    margin: 50px 10px;
+    
+}
