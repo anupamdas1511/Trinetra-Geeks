@@ -68,6 +68,7 @@ nav ul a{
     for Firefox */
     display: flex;
     flex-wrap: wrap;
+    gap: 15px;
 }
 
 .one_book{
