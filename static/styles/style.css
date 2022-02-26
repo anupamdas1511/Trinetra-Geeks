@@ -1,4 +1,5 @@
 *{
+    scroll-behavior: smooth;
     margin: 0;
     border: 0px;
 }
@@ -58,8 +59,15 @@ nav ul a{
 }
 
 .section{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    /* display: block ruby;
+    overflow-x: scroll;
+    overflow: auto;
+    -ms-overflow-style: none;
+    for Internet Explorer, Edge
+    scrollbar-width: none;
+    for Firefox */
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .one_book{
