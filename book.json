@@ -5,13 +5,116 @@
         {
             "name":"Rich Dad Poor Dad",
             "author":"Robert Kiosaki",
-            "yearofpublish":"1997"
+            "yearofpublish":"1997",
+            "img_file" : "Book1",
+            "summary" : "atomic habits No matter your goals, Atomic Habits offers a proven framework for improving--every day. James Clear, one of the world's leading experts on habit formation, reveals practical strategies that will teach you exactly how to form good habits, break bad ones, and master the tiny behaviors that lead to remarkable results. If you're having trouble changing your habits, the problem isn't you. The problem is your system.Learn how to: •  make time for new habits (even when life gets crazy); •  overcome a lack of motivation and willpower; •  design your environment to make success easier; •  get back on track when you fall off course; ...and much more. Atomic Habits will reshape the way you think about progress and success, and give you the tools and strategies you need to transform your habits--whether you are a team looking to win a championship, an organization hoping to redefine an industry, or simply an individual who wishes to quit smoking, lose weight, reduce stress, or achieve any other goal. Publisher :Avery; Author : James clear"
         },
         "2":
         {
             "name":"Atomic Habits",
             "author":"James Clear",
-            "yearofpublish":"2018"
+            "yearofpublish":"2018",
+            "img_file" : "Book2",
+            "summary":"atomic habits No matter your goals, Atomic Habits offers a proven framework for improving--every day. James Clear, one of the world's leading experts on habit formation, reveals practical strategies that will teach you exactly how to form good habits, break bad ones, and master the tiny behaviors that lead to remarkable results. If you're having trouble changing your habits, the problem isn't you. The problem is your system. Learn how to: •  make time for new habits (even when life gets crazy); •  overcome a lack of motivation and willpower; •  design your environment to make success easier; •  get back on track when you fall off course; ...and much more. Atomic Habits will reshape the way you think about progress and success, and give you the tools and strategies you need to transform your habits--whether you are a team looking to win a championship, an organization hoping to redefine an industry, or simply an individual who wishes to quit smoking, lose weight, reduce stress, or achieve any other goal.Publisher:Avery; Author : James clear"
+        },
+        "3":
+        {
+            "name":"Quiet",
+            "author":"Susan Cain",
+            "yearofpublish":"2012",
+            "img_file" : "Book3",
+            "summary":"Quiet: The Power of Introverts in a World That Can't Stop Talking The book presents a history of how Western culture transformed from a culture of character to a culture of personality in which an 'extrovert ideal' dominates and introversion is viewed as inferior or even pathological. Adopting scientific definitions of introversion and extroversion as preferences for different levels of stimulation, Quiet outlines the advantages and disadvantages of each temperament, emphasizing the myth of the extrovert ideal that has dominated in the West since the early twentieth century. Asserting that temperament is a core element of human identity, Cain cites research in biology, psychology, neuroscience and evolution to demonstrate that introversion is both common and normal, noting that many of humankind's most creative individuals and distinguished leaders were introverts. Cain urges changes at the workplace, in schools, and in parenting; offers advice to introverts for functioning in an extrovert-dominated culture; and offers advice in communication, work, and relationships between people of differing temperament. Publisher: crown publishing group Author: Susan cain"
+        },
+        "4":
+        {
+            "name":"Sherlock Holmes: Volume 1",
+            "author":"Sir Arthur Conan Doyle",
+            "yearofpublish":"1892",
+            "img_file" : "Book4"
+        },
+        "5":
+        {
+            "name":"Sherlock Holmes: Volume 2",
+            "author":"Sir Arthur Conan Doyle",
+            "yearofpublish":"2018",
+            "img_file" : "Book5"
+        },
+        "6":
+        {
+            "name":"Sherlock Holmes: Volume 3",
+            "author":"Sir Arthur Conan Doyle",
+            "yearofpublish":"1892",
+            "img_file" : "Book6",
+            "summary":"The adventures of Sherlock Holmes In general the stories in The Adventures of Sherlock Holmes identify, and try to correct, social injustices. Holmes is portrayed as offering a new, fairer sense of justice. The stories were well received, and boosted the subscriptions figures of The Strand Magazine, prompting Doyle to be able to demand more money for his next set of stories. The first story, 'A Scandal in Bohemia', includes the character of Irene Adler, who, despite being featured only within this one story by Doyle, is a prominent character in modern Sherlock Holmes adaptations, generally as a love interest for Holmes. Doyle included four of the twelve stories from this collection in his twelve favourite Sherlock Holmes stories, picking 'The Adventure of the Speckled Band' as his overall favourite. Author : Arthur Conan Doyle Publisher George Newnes"
+        },
+        "7":
+        {
+            "name":"The Famous Five",
+            "author":"Enid Blyton",
+            "yearofpublish":"1942",
+            "img_file" : "Book7",
+            "summary":"Famous Five The vast majority of the stories take place in the children's school holidays. Each time they meet they get caught up in an adventure, often involving criminals or lost treasure. Sometimes the scene is set close to George's family home at Kirrin Cottage, such as the picturesque Kirrin Island, owned by George and her family in Kirrin Bay. George's own home and various other houses the children visit or stay in are hundreds of years old and often contain secret passages or smugglers' tunnels. In some books the children go camping in the countryside, on a hike or holiday together elsewhere. However, the settings are almost always rural and enable the children to discover the simple joys of cottages, islands, the English and Welsh countryside and sea shores, as well as an outdoor life of picnics, bicycle trips and swimming. Author : Enid Blyton Publisher : Hodder & Stoughton"
+        },
+        "8":
+        {
+            "name":"The Canterville Ghost",
+            "author":"Oscar Wilde",
+            "yearofpublish":"2018",
+            "img_file" : "Book8"
+        },
+        "9":
+        {
+            "name":"The Jungle Book",
+            "author":"Rudyard Kipling",
+            "yearofpublish":"1887",
+            "img_file" : "Book9",
+            "summary":"jungle book A major theme in the book is abandonment followed by fostering, as in the life of Mowgli, echoing Kipling's own childhood. The theme is echoed in the triumph of protagonists including Rikki-Tikki-Tavi and The White Seal over their enemies, as well as Mowgli's. Another important theme is of law and freedom; the stories are not about animal behaviour, still less about the Darwinian struggle for survival, but about human archetypes in animal form. They teach respect for authority, obedience, and knowing one's place in society with 'the law of the jungle', but the stories also illustrate the freedom to move between different worlds, such as when Mowgli moves between the jungle and the village. Critics have also noted the essential wildness and lawless energies in the stories, reflecting the irresponsible side of human nature. The Jungle Book has remained popular, partly through its many adaptations for film and other media. Author :  Rudyard Kipling Publisher : Macmillan"
+        },
+        "10":
+        {
+            "name":"Peter Pan",
+            "author":"J. M. Barrie",
+            "yearofpublish":"1904",
+            "img_file" : "Book10",
+            "summary":"peter pan Peter Pan is a children’s novel by J. M. Barrie. It follows the adventures of the Darling children and Peter Pan, a boy who never grows up. Peter Pan flies into Wendy Darling’s room and convinces her and her brothers to come to Neverland with him and his fairy, Tinker Bell. In Neverland, Peter and the Darlings live with the lost boys, with Wendy acting as the boys’ mother. They also battle Captain Hook and his pirate crew. The Darlings return to London, where their parents adopt the lost boys. Peter remains in Neverland, but returns to take Wendy’s daughter on an adventure. Author James (J.M.) Barrie. publisher Hodder & Stoughton (UK) Charles Scribner's Sons (US)"
+        },
+        "11":
+        {
+            "name":"Relativity : The Special and General Theory",
+            "author":"Albert Einstein",
+            "yearofpublish":"1915",
+            "img_file" : "Book11",
+            "summary":"Relativity : the special and the general theory According to Einstein himself, this book is intended 'to give an exact insight into the theory of Relativity to those readers who, from a general scientific and philosophical point of view, are interested in the theory, but who are not conversant with the mathematical apparatus of theoretical physics.' When he wrote the book in 1916, Einstein's name was scarcely known outside the physics institutes. Having just completed his masterpiece, The General Theory of Relativity—which provided a brand-new theory of gravity and promised a new perspective on the cosmos as a whole—he set out at once to share his excitement with as wide a public as possible in this popular and accessible book. Author : Albert Einstein Publication : Penguin Classics"
+        },
+        "12":
+        {
+            "name":"A Brief History of Time",
+            "author":"Stephen Hawking",
+            "yearofpublish":"1988",
+            "img_file" : "Book12",
+            "summary":"A Brief History of Time In A Brief History of Time, Hawking writes in non-technical terms about the structure, origin, development and eventual fate of the Universe, which is the object of study of astronomy and modern physics. He talks about basic concepts like space and time, basic building blocks that make up the Universe (such as quarks) and the fundamental forces that govern it (such as gravity). He writes about cosmological phenomena such as the Big Bang and black holes. He discusses two major theories, general relativity and quantum mechanics, that modern scientists use to describe the Universe. Finally, he talks about the search for a unifying theory that describes everything in the Universe in a coherent manner. Author : Stephen Hawking Publication : Bantam Dell Publishing Group"
+        },
+        "13":
+        {
+            "name":"The Extraordinary History of Human Origins",
+            "author":"Piero and Alberto Angela",
+            "yearofpublish":"2017",
+            "img_file" : "Book13"
+        },
+        "14":
+        {
+            "name":"Problems in General Physics",
+            "author":"I. E. Irodov",
+            "yearofpublish":"1979",
+            "img_file" : "Book14",
+            "summary":"General problems in physics by I.E. Irodov This book on Problems in General Physics containing about 1900 problems with hints for solving the most complicated ones has been designed for students studying advanced course in Physics. The book has been divided into six parts covering Physical Fundamentals of Mechanics, Thermodynamics & Molecular Physics, Electrodynamics, Oscillations & Waves, Optics and Atomic & Nuclear Physics, each segregated into number of chapters. Each chapter in the book opens with a time-saving summary of the principal formulas for the relevant area of physics. As a rule the formulas are given without detailed explanation. Explanatory notes are given in those cases where misunderstandings may arise. The author has used all formulas in the SI system, except in Part six where the Gaussian system has been used. Also the main physical constants and tables are summarized at the end of the book along with the Periodic System of Elements and Table of Elementary Particles also covered in the book. At the beginning of each chapter summary of principal formulas has been given for clarifying relevant basic concepts. At the end of each chapter, unsolved practice exercises have been provided to help aspirants revise the concepts discussed in the chapter. Author : I.E. Irodov Publication : Arihant"
+        },
+        "15":
+        {
+            "name":"Physics of the Body",
+            "author":"J. M. Barrie",
+            "yearofpublish":"2018",
+            "img_file" : "Book15"
         }
     }
 }
