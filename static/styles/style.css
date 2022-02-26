@@ -52,10 +52,8 @@ nav ul a{
     background : #cde6e6;
     margin: auto;
     padding: 20px;
-    /* display: flex; */
     /* flex-direction: row; */
     /* overflow-x: scroll; */
-    /* flex-wrap: wrap; */
 }
 
 .section{
@@ -68,7 +66,10 @@ nav ul a{
     for Firefox */
     display: flex;
     flex-wrap: wrap;
+<<<<<<< HEAD
     gap: 15px;
+=======
+>>>>>>> 143fcfa6753c637ce9d14c9c144d123bce8b13f0
 }
 
 .one_book{
@@ -119,8 +120,13 @@ nav ul a{
     border-radius: 3px;
     cursor: pointer;
     background-color: rgb(30, 243, 2);
+  }
   } */
 /* .section{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 } */
+
+.thumbnails{
+    width: 100%;
+}
