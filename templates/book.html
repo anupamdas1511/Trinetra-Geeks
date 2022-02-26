@@ -4,10 +4,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>book_title</title>
+    <link rel="stylesheet" href="/static/styles/bookstyle.css">
 </head>
 <body>
-    title: {{book['name']}} <br>
-    Author: {{book['author']}} <br>
-    Year of publish: {{book['yearofpublish']}} <br>
+    <nav>
+        <ul class="list left">
+            <li class="home"><a href="/templates/dashboard.html">Home</a></li>
+        </ul>
+        <ul class="list right">
+            <li><a href="/templates/login.html">Login</a></li>
+            <li><a href="/templates/signup.html">Signup</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <img src="/static/images/hpfront.jpg" alt="">
+        <div class="detail1">
+            <h3 class="title">{{book['name']}}</h3> <br>
+            <div class="detail2">
+                <p class="detail author">Author:{{book['author']}}</p><br>
+                <p class="detail year">Year of publish: {{book['yearofpublish']}}</p><br>
+            </div>
+            <h4 class="sum">Summary</h4>
+            <p class="summary"></p>
+        </div>
+    </div>
 </body>
 </html>
