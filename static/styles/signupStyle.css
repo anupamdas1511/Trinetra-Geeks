@@ -4,21 +4,32 @@
     font-family: sans-serif;
 }
 body{
-    background: url("/static/images/bg-login.jpg") no-repeat;
-    background-size: cover;
+    background: #dee7e7;
+}
+nav{
+    width: 100%;
+    height: 12vh;
+    background: #9EE5FC;
 }
 .signup-form{
     padding: 5px;
     position: absolute;
-    width: 300px;
+    display: flex;
+    flex-direction: row;
+    width: 60%;
     top: 50%;
     left: 50%;
+    border-radius: 50px;
     transform: translate(-50%, -50%);
-    color: #fff;
+    background-color: rgb(91, 206, 214);
+}
+.signup-form .form{
+    padding: 30px;
 }
 .signup-form h2{
-    font-size: 50px;
+    font-size: 40px;
     text-transform: uppercase;
+    color: rgb(0, 0, 255);
     margin: 20px 0;
 }
 .signup-form p{
@@ -30,8 +41,7 @@ body{
     width: 100%;
     padding: 10px 10px;
     border: 0;
-    outline: rgba(0, 0, 0, 0.8) solid;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 .signup-form #mismatch-msg{
     font-size: 20px;
@@ -40,13 +50,31 @@ body{
 .signup-form button{
     font-size: 20px;
     font-weight: bold;
-    margin: 15px 0;
+    margin: 10px 0;
     padding: 8px 10px;
     width: 50%;
-    border-radius: 3px;
+    border-radius: 20px;
     cursor: pointer;
+    background-color: rgb(126, 126, 126);
 }
 .signup-form .login-msg{
     font-size: 20px;
     margin: 5px 0;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    display: block;
+}
+footer .rights{
+    padding: 15px;
+}
+footer h4{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-weight: normal;
 }

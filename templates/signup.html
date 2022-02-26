@@ -8,9 +8,11 @@
     <link rel="stylesheet" href="/static/styles/signupStyle.css">
 </head>
 <body>
+    <nav></nav>
     <div class="signup-form">
-        <h2>Signup</h2>
-        <form action="/signup" method="post">
+        <form action="/signup" method="post" class="form">
+            <h2>Sign up</h2>
+            <p class="login-msg">Already have an account?<a href="/login">Login</a></p>
             <p>Username</p>
             <input type="text" name="name" id="username" placeholder="Username">
             <p>Password</p>
@@ -19,9 +21,15 @@
             <input type="password" name="conf_pass" id="confirm password" placeholder="Password">
             <p id="mismatch-msg"></p>
             <button type="submit">Signup</button>
-            <p class="login-msg">Already have an account?<a href="/login">Login</a></p>
+            
             <script src="/static/script/signupScript.js"></script>
         </form>
     </div>
+    <footer>
+        <div class="rights">
+            <h4>&copy; Copyright 2022. All rights reserved</h4>
+            <h4>Trinetra.com</h4>
+        </div>
+    </footer>
 </body>
 </html>

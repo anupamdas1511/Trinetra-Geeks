@@ -8,16 +8,26 @@
     <link rel="stylesheet" href="/static/styles/formStyle.css">
 </head>
 <body>
+    <nav></nav>
     <div class="login-form">
-        <h2>Login</h2>
-        <form action="/login" method="post">
-            <p>Username</p>
+        <form action="/login" method="post" class="form">
+            <h2>Log in</h2>
+            <p class="text">Username</p>
             <input type="text" name="name" id="username" placeholder="Username">
-            <p>Password</p>
+            <p class="text">Password</p>
             <input type="password" name="pass" id="password" placeholder="Password">
+            <p class="login">Login with Google</p>
+            <p class="login">Login with Facebook</p>
             <button type="submit">Login</button>
             <p class="signup-msg">Don't have an account?<a href="/signup">Signup</a></p>
         </form>
+        <div class="design"></div>
     </div>
+    <footer>
+        <div class="rights">
+            <h4>&copy; Copyright 2022. All rights reserved</h4>
+            <h4>Trinetra.com</h4>
+        </div>
+    </footer>
 </body>
 </html>
