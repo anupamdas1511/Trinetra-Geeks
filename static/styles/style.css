@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    border: 0px;
+}.header{
+    width: 100%;
+    height: 12vh;
+    background: #9EE5FC;
+}
+
+.header nav{
+    display: block ruby;
+}
+
+.header nav ul{
+    list-style: none;
+    display: inherit;
+    position: absolute;
+    right: 41px;
+    align-items: center;
+display: flex;
+}
+
+nav ul li{
+    margin-left: 50px;
+    padding: 0px 0px;
+}
+
+nav ul a{
+    color: rgb(23, 2, 71);
+    text-decoration: none;
+}
+
+#user{
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+}
+
+#user img{
+    width: 40px;
+
+}

@@ -4,19 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E Library - Home</title>
+    <title>Trinetra-Home</title>
+    <link rel="stylesheet" href="../static/styles/style.css">
 </head>
 <body>
     <div class="header">
     <nav>
         <ul>
-            <li><a href="/login"><button>login</button></a></li>
-            <li><a href="/dashboard"><button>{{user}}</button></a></li>
+            <li><a href="/Categories">Categories</a></li>
+            <li><a href="/dashboard"><button id="user" title={{user}}><img src="../static/images/PngItem_5040528.png" alt="user"></button></a></li>
         </ul>
     </nav>
   </div>
+  <div class="swiper"></div>
 
+  <div class="books">
   <main><a href="/book/1"><div class="book">book1</div></a></main>
   <main><a href="/book/2"><div class="book">book2</div></a></main>
+  </div>
 </body>
 </html>
