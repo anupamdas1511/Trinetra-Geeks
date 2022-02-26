@@ -5,6 +5,7 @@
 }
 body{
     background: #dee7e7;
+    height: 150vh;
 }
 nav{
     width: 100%;
@@ -16,8 +17,9 @@ nav{
     position: absolute;
     display: flex;
     flex-direction: row;
-    height: 70vh;
-    width: 60%;
+    /* height: 70vh; */
+    aspect-ratio: 1.7/1 !important;
+    width: 67% !important;
     top: 50%;
     left: 50%;
     border-radius: 50px;
@@ -26,49 +28,53 @@ nav{
 }
 .login-form .form{
     padding: 30px;
+    padding-left: 75px;
+    color: #1e57ad;
 }
 .login-form h2{
     font-size: 40px;
     text-transform: uppercase;
     color: rgb(0, 0, 255);
-    margin: 20px 0;
+    margin: 34px 0;
 }
 .login-form .text{
-    font-size: 30px;
-    margin: 5px 0;
+    font-size: 25px;
+margin: 5px 0;
 }
 .login-form .login{
-    margin: 10px;
-    font-weight: bold;
-    cursor: pointer;
+    margin: 7px 42px;
+font-weight: bold;
+cursor: pointer;
 }
 .login-form .login:hover{
     color: blue;
 }
 .login-form input{
     font-size: 20px;
-    width: 100%;
-    padding: 10px 10px;
-    border: 0;
-    border-radius: 20px;
+width: 100%;
+padding: 10px 10px;
+border: 0;
+border-radius: 20px;
+margin-left: 23px;
+margin-bottom: 28px;
 }
 .login-form button{
     font-size: 20px;
-    font-weight: bold;
-    margin: 10px 0;
-    padding: 8px 10px;
-    width: 50%;
-    border-radius: 20px;
-    cursor: pointer;
-    background-color: rgb(126, 126, 126);
+font-weight: bold;
+margin: 10px 100px;
+padding: 8px 10px;
+width: 50%;
+border-radius: 20px;
+cursor: pointer;
+background-color: rgb(126, 126, 126);
 }
 .login-form .signup-msg{
-    font-size: 20px;
-    margin: 5px 0;
+    font-size: 15px;
+    margin: 5px 49px;
 }
 footer{
-    position: fixed;
-    bottom: 0;
+    position: absolute;
+    bottom: -400px;
     width: 100%;
     height: 70px;
     background-color: black;
@@ -82,4 +88,12 @@ footer h4{
     color: white;
     text-align: center;
     font-weight: normal;
+}
+
+.design img{
+    width: 400px;
+position: relative;
+margin: auto;
+left: 200px;
+top: 105px;
 }
