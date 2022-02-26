@@ -1,0 +1,17 @@
+{
+    "books":
+    {
+        "1":
+        {
+            "name":"Rich Dad Poor Dad",
+            "author":"Robert Kiosaki",
+            "yearofpublish":"1997"
+        },
+        "2":
+        {
+            "name":"Atomic Habits",
+            "author":"James Clear",
+            "yearofpublish":"2018"
+        }
+    }
+}
