@@ -16,4 +16,5 @@ const swiper = new Swiper('.swiper', {
 function nextClick(){
   document.getElementById("next").click();
 }
+
 setInterval(nextClick, 3000);
