@@ -33,6 +33,10 @@ body{
     outline: rgba(0, 0, 0, 0.8) solid;
     border-radius: 5px;
 }
+.signup-form #mismatch-msg{
+    font-size: 20px;
+    color: rgb(216, 49, 49);
+}
 .signup-form button{
     font-size: 20px;
     font-weight: bold;
