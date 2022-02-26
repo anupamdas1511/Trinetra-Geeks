@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trinetra-Home</title>
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="../static/styles/style.css">
 </head>
 <body>
@@ -16,11 +21,92 @@
         </ul>
     </nav>
   </div>
-  <div class="swiper"></div>
+  <div class="swiper">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div class="card book1">
+                <img src="/static/images/hpfront.jpg">
+                <h3>{Title}</h3>
+                <button id="read">Read</button>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="card book1">
+                <img src="/static/images/hpfront.jpg">
+                <h3>{Title}</h3>
+                <button id="read">Read</button>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="card book1">
+                <img src="/static/images/hpfront.jpg">
+                <h3>{Title}</h3>
+                <button id="read">Read</button>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="card book1">
+                <img src="/static/images/hpfront.jpg">
+                <h3>{Title}</h3>
+                <button id="read">Read</button>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="card book1">
+                <img src="/static/images/hpfront.jpg">
+                <h3>{Title}</h3>
+                <button id="read">Read</button>
+            </div>
+        </div>
+        <!--  -->
+
+        <!-- <div class="swiper-slide">
+            <div class="card book1">
+                <img src="/static/images/hpfront.jpg">
+                <h3>{Title}</h3>
+                <button id="read">Read</button>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="card book1">
+                <img src="/static/images/hpfront.jpg">
+                <h3>{Title}</h3>
+                <button id="read">Read</button>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="card book1">
+                <img src="/static/images/hpfront.jpg">
+                <h3>{Title}</h3>
+                <button id="read">Read</button>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="card book1">
+                <img src="/static/images/hpfront.jpg">
+                <h3>{Title}</h3>
+                <button id="read">Read</button>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="card book1">
+                <img src="/static/images/hpfront.jpg">
+                <h3>{Title}</h3>
+                <button id="read">Read</button>
+            </div>
+        </div> -->
+    </div>
+    <!-- If you want to use pagination then uncomment below and also in script.js file -->
+
+      <!-- <div class="swiper-pagination"></div> -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+  </div>
 
   <div class="books">
   <main><a href="/book/1"><div class="book">book1</div></a></main>
   <main><a href="/book/2"><div class="book">book2</div></a></main>
   </div>
+  <script src="/static/script/script.js"></script>
 </body>
 </html>
