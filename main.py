@@ -28,9 +28,10 @@ app.secret_key = 'trinetra-geeks'
 def home():
     if 'user' in session:
         user = session['user']
+    
     else:
         user = "login"
-    return render_template("index.html",user = user)
+    return render_template("index.html",user = user,book = book)
 
 
 
