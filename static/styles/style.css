@@ -65,7 +65,6 @@ nav ul a{
     for Firefox */
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .one_book{
@@ -73,6 +72,7 @@ nav ul a{
     width: 240px;
     background: purple;
     margin: 50px 10px;
+    border-radius: 25px;
     
 }
 .swiper {
@@ -104,25 +104,23 @@ nav ul a{
       flex-direction: column;
       justify-content: center;
   }
-  .card img{
-      height: 250px;
-  }
-  .card h3{
-      font-family: sans-serif;
-      text-align: center;
-      padding: 10px;
-  }
+/* 
   .card button{
     font-size: 20px;
     font-weight: bold;
     margin: auto;
+    top: 100%;
     padding: 8px 10px;
-    width: 50%;
+    width: 100%;
     border-radius: 3px;
     cursor: pointer;
     background-color: rgb(30, 243, 2);
   }
-
+  } */
+/* .section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+} */
 
 .thumbnails{
     width: 100%;
