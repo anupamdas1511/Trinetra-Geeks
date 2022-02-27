@@ -22,7 +22,12 @@
         <div class="logo"><a href="/"><img src="../static/images/logo.jpg" id="logo" alt=""></a></div>
         <ul>
             <li><a href="/about">About Us</a></li>
-            <li><a href="/dashboard"><button id="user" title={{user}}><img src="../static/images/PngItem_5040528.png" alt="user"></button></a></li>
+            <li>{% if user == 'login' %}
+                <div class="logo"><a href="/dashboard"><button id="btn">LOGIN</button></a></div>
+            {% else %}
+                <a href="/dashboard"><button id="user" title={{user}}><img src="../static/images/PngItem_5040528.png" alt="user"></button></a>
+                {% endif %}
+            </li>
         </ul>
     </nav>
   </div>
@@ -36,25 +41,25 @@
         </div>
         <div class="swiper-slide">
             <div class="card book1">
-                        <div class="one_book"><a href="/book/1"><div class="book"><img class="book_thumbnail_home" src="../static/images/{{book['1']['img_file']}}" alt=""></div></a></div>
+                        <div class="one_book"><a href="/book/2"><div class="book"><img class="book_thumbnail_home" src="../static/images/{{book['2']['img_file']}}" alt=""></div></a></div>
 
             </div>
         </div>
         <div class="swiper-slide">
             <div class="card book1">
-                        <div class="one_book"><a href="/book/1"><div class="book"><img class="book_thumbnail_home" src="../static/images/{{book['1']['img_file']}}" alt=""></div></a></div>
+                        <div class="one_book"><a href="/book/11"><div class="book"><img class="book_thumbnail_home" src="../static/images/{{book['11']['img_file']}}" alt=""></div></a></div>
 
             </div>
         </div>
         <div class="swiper-slide">
             <div class="card book1">
-                        <div class="one_book"><a href="/book/1"><div class="book"><img class="book_thumbnail_home" src="../static/images/{{book['1']['img_file']}}" alt=""></div></a></div>
+                        <div class="one_book"><a href="/book/4"><div class="book"><img class="book_thumbnail_home" src="../static/images/{{book['4']['img_file']}}" alt=""></div></a></div>
 
             </div>
         </div>
         <div class="swiper-slide">
             <div class="card book1">
-                        <div class="one_book"><a href="/book/1"><div class="book"><img class="book_thumbnail_home" src="../static/images/{{book['1']['img_file']}}" alt=""></div></a></div>
+                        <div class="one_book"><a href="/book/8"><div class="book"><img class="book_thumbnail_home" src="../static/images/{{book['8']['img_file']}}" alt=""></div></a></div>
 
             </div>
         </div>
@@ -99,28 +104,41 @@
       <div class="recommendations section">
         <!-- <div class="one_book"><a href="/book/1"><div class="book"><img src="../static/images/Rich_dad_poor_dad.jpg" class="thumbnails" alt={{book[title]}}></div></a></div> -->
         <div class="one_book"><a href="/book/1"><div class="book"><img class="book_thumbnail_home" src="../static/images/{{book['1']['img_file']}}" alt=""></div></a></div>
-        <div class="one_book"><a href="/book/2"><div class="book"><img class="book_thumbnail_home" src="../static/images/{{book['1']['img_file']}}" alt=""></div></a></div>
-        <div class="one_book"><a href="/book/3"><div class="book"><img class="book_thumbnail_home" src="../static/images/{{book['1']['img_file']}}" alt=""></div></a></div>
-        <div class="one_book"><a href="/book/4"><div class="book"><img class="book_thumbnail_home" src="../static/images/{{book['1']['img_file']}}" alt=""></div></a></div>
-        <div class="one_book"><a href="/book/5"><div class="book"><img class="book_thumbnail_home" src="../static/images/{{book['1']['img_file']}}" alt=""></div></a></div>
+        <div class="one_book"><a href="/book/2"><div class="book"><img class="book_thumbnail_home" src="../static/images/{{book['2']['img_file']}}" alt=""></div></a></div>
+        <div class="one_book"><a href="/book/7"><div class="book"><img class="book_thumbnail_home" src="../static/images/{{book['7']['img_file']}}" alt=""></div></a></div>
+        <div class="one_book"><a href="/book/11"><div class="book"><img class="book_thumbnail_home" src="../static/images/{{book['11']['img_file']}}" alt=""></div></a></div>
+        <div class="one_book"><a href="/book/9"><div class="book"><img class="book_thumbnail_home" src="../static/images/{{book['9']['img_file']}}" alt=""></div></a></div>
     </div>
     <h2 class="section_h">For Children</h2>
     <div class="children section">
       
-        <div class="one_book"><a href="/book/1"><div class="book"><img class="book_thumbnail_home" src="../static/images/{{book['1']['img_file']}}" alt=""></div></a></div>
-        <div class="one_book"><a href="/book/2"><div class="book"><img class="book_thumbnail_home" src="../static/images/{{book['1']['img_file']}}" alt=""></div></a></div>
-        <div class="one_book"><a href="/book/3"><div class="book"><img class="book_thumbnail_home" src="../static/images/{{book['1']['img_file']}}" alt=""></div></a></div>
-        <div class="one_book"><a href="/book/4"><div class="book"><img class="book_thumbnail_home" src="../static/images/{{book['1']['img_file']}}" alt=""></div></a></div>
-        <div class="one_book"><a href="/book/5"><div class="book"><img class="book_thumbnail_home" src="../static/images/{{book['1']['img_file']}}" alt=""></div></a></div>
+        <div class="one_book"><a href="/book/4"><div class="book"><img class="book_thumbnail_home" src="../static/images/{{book['4']['img_file']}}" alt=""></div></a></div>
+        <div class="one_book"><a href="/book/5"><div class="book"><img class="book_thumbnail_home" src="../static/images/{{book['5']['img_file']}}" alt=""></div></a></div>
+        <div class="one_book"><a href="/book/6"><div class="book"><img class="book_thumbnail_home" src="../static/images/{{book['6']['img_file']}}" alt=""></div></a></div>
+        <div class="one_book"><a href="/book/7"><div class="book"><img class="book_thumbnail_home" src="../static/images/{{book['7']['img_file']}}" alt=""></div></a></div>
+        <div class="one_book"><a href="/book/8"><div class="book"><img class="book_thumbnail_home" src="../static/images/{{book['8']['img_file']}}" alt=""></div></a></div>
   </div>
   <h2 class="section_h">Others</h2>
   <div class="others section">
         <!-- <div class="one_book"><a href="/book/1"><div class="book"><img src="../static/images/Rich_dad_poor_dad.jpg" class="thumbnails" alt={{book[title]}}></div></a></div> -->
+        <div class="one_book"><a href="/book/10"><div class="book"><img class="book_thumbnail_home" src="../static/images/{{book['10']['img_file']}}" alt=""></div></a></div>
+        <div class="one_book"><a href="/book/9"><div class="book"><img class="book_thumbnail_home" src="../static/images/{{book['9']['img_file']}}" alt=""></div></a></div>
+        <div class="one_book"><a href="/book/8"><div class="book"><img class="book_thumbnail_home" src="../static/images/{{book['8']['img_file']}}" alt=""></div></a></div>
+        <div class="one_book"><a href="/book/7"><div class="book"><img class="book_thumbnail_home" src="../static/images/{{book['7']['img_file']}}" alt=""></div></a></div>
+        <div class="one_book"><a href="/book/6"><div class="book"><img class="book_thumbnail_home" src="../static/images/{{book['6']['img_file']}}" alt=""></div></a></div>
+        <div class="one_book"><a href="/book/5"><div class="book"><img class="book_thumbnail_home" src="../static/images/{{book['5']['img_file']}}" alt=""></div></a></div>
+        <div class="one_book"><a href="/book/4"><div class="book"><img class="book_thumbnail_home" src="../static/images/{{book['4']['img_file']}}" alt=""></div></a></div>
+        <div class="one_book"><a href="/book/3"><div class="book"><img class="book_thumbnail_home" src="../static/images/{{book['3']['img_file']}}" alt=""></div></a></div>
+        <div class="one_book"><a href="/book/2"><div class="book"><img class="book_thumbnail_home" src="../static/images/{{book['2']['img_file']}}" alt=""></div></a></div>
         <div class="one_book"><a href="/book/1"><div class="book"><img class="book_thumbnail_home" src="../static/images/{{book['1']['img_file']}}" alt=""></div></a></div>
-        <div class="one_book"><a href="/book/2"><div class="book"><img class="book_thumbnail_home" src="../static/images/{{book['1']['img_file']}}" alt=""></div></a></div>
-        <div class="one_book"><a href="/book/3"><div class="book"><img class="book_thumbnail_home" src="../static/images/{{book['1']['img_file']}}" alt=""></div></a></div>
-        <div class="one_book"><a href="/book/4"><div class="book"><img class="book_thumbnail_home" src="../static/images/{{book['1']['img_file']}}" alt=""></div></a></div>
-        <div class="one_book"><a href="/book/5"><div class="book"><img class="book_thumbnail_home" src="../static/images/{{book['1']['img_file']}}" alt=""></div></a></div>
+        <div class="one_book"><a href="/book/11"><div class="book"><img class="book_thumbnail_home" src="../static/images/{{book['11']['img_file']}}" alt=""></div></a></div>
+        <div class="one_book"><a href="/book/12"><div class="book"><img class="book_thumbnail_home" src="../static/images/{{book['12']['img_file']}}" alt=""></div></a></div>
+        <div class="one_book"><a href="/book/13"><div class="book"><img class="book_thumbnail_home" src="../static/images/{{book['13']['img_file']}}" alt=""></div></a></div>
+        <div class="one_book"><a href="/book/14"><div class="book"><img class="book_thumbnail_home" src="../static/images/{{book['14']['img_file']}}" alt=""></div></a></div>
+        <div class="one_book"><a href="/book/15"><div class="book"><img class="book_thumbnail_home" src="../static/images/{{book['15']['img_file']}}" alt=""></div></a></div>
+        <!-- <div class="one_book"><a href="/book/6"><div class="book"><img class="book_thumbnail_home" src="../static/images/{{book['6']['img_file']}}" alt=""></div></a></div>
+        <div class="one_book"><a href="/book/6"><div class="book"><img class="book_thumbnail_home" src="../static/images/{{book['6']['img_file']}}" alt=""></div></a></div>
+        <div class="one_book"><a href="/book/6"><div class="book"><img class="book_thumbnail_home" src="../static/images/{{book['6']['img_file']}}" alt=""></div></a></div> -->
   </div>
   <!-- <main><a href="/book/2"><div class="book">book2</div></a></main> -->
   </div>

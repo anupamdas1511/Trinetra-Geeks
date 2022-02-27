@@ -15,31 +15,35 @@
             <div class="logo"><a href="/"><img src="../static/images/logo.jpg" id="logo" alt=""></a></div>
             <ul>
                 <li><a href="/about">About Us</a></li>
-                <li><a href="/dashboard"><button id="user" title={{user}}><img src="../static/images/PngItem_5040528.png" alt="user"></button></a></li>
+                <li>{% if user == 'login' %}
+                    <div class="logo"><a href="/dashboard"><button id="btn">LOGIN</button></a></div>
+                {% else %}
+                    <a href="/dashboard"><button id="user" title={{user}}><img src="../static/images/PngItem_5040528.png" alt="user"></button></a></li>
+                {% endif %}</li>
             </ul>
         </nav>
       </div>
 {{user}}
 <div class="main a_site">
-    <h1>About The Site</h1>
+    <h1>About This Site</h1>
     <div class="background">
-    <img src="../static/images/book10.jpg" alt=""  class="about_pics">
-    <p class="description">libraries are cornerstones of our commmunities as hubs for knowledge,research and much more. Trinetra presents you the joy of readding where you cross your imagination where you can find your choice over 1000 of books. "May you find the reader within you"! </p>
+    <img src="../static/images/icon.jpeg" alt=""  class="about_pics">
+    <p class="description">Libraries are cornerstones of our commmunities as hubs for knowledge,research and much more. We, at Trinetra present you the joy of reading where you can find your choice over 1000 of books. <br> "May you find the reader within you"! </p>
 </div>
 </div>
 <div class="main">
     <h1>Members</h1>
     <div class="participants left">
-        <img src="../static/images/book10.jpg" alt="" id="logo" class="about_pics members">
-        <p class="about_mem"> Heyy ! Partha Pratim Deka this side from CSE department.Still Hustling  </p>
+        <img src="../static/images/mem1.jpg" alt="" id="logo" class="about_pics members">
+        <p class="about_mem"> Hello Everyone, I'm Partha Pratim Deka.I currently live in assam, India and I'm a full-time student pursuing bachelor of technology in computer science at national institute of technology, silchar.</p>
     </div>
     <div class="participants right">
-        <img src="../static/images/book10.jpg" alt="" id="logo" class="about_pics members">
-        <p class="about_mem"> Hello everyone ! Anupam Das here from CSE department.    </p>
+        <img src="../static/images/mem2.jpeg" alt="" id="logo" class="about_pics members">
+        <p class="about_mem"> I am Anupam das from CSE department. I live in Rongpur, Silchar, completed my 10th from Tagore Public School, Rongpur, Silchar and my 12th form Ramanuj Gupta junior College, Ambicapatty, Silchar. I am currently pursuing B. Tech. at CSE from NIT Silchar. My hobbies are reading, singing  and coding.    </p>
     </div>
     <div class="participants left">
-        <img src="../static/images/book10.jpg" alt="" id="logo" class="about_pics members">
-        <p class="about_mem"> Hey , Aryadeep Gogoi this side from ECE department .Still exploring  </p>
+        <img src="../static/images/mem3.jpeg" alt="" id="logo" class="about_pics members">
+        <p class="about_mem"> Hey viewers, Aryadeep Gogoi this side from Electronics and communication engineering department .Hails from Guwahati , Assam .Still exploring and quite passionate regarding a lot of stuffs.  </p>
     </div>
 </div>
 <footer>

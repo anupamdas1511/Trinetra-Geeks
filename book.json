@@ -30,7 +30,7 @@
             "name":"Sherlock Holmes: Volume 1",
             "author":"Sir Arthur Conan Doyle",
             "yop":"1892",
-            "img_file" : "Book4",
+            "img_file" : "Book4.jpg",
             "summary" : " Sir Arthur Conan Doyle’s The Adventures of Sherlock Holmes is a collection of twelve short stories. Each tale features the criminal investigations of fictional detective Sherlock Holmes, as seen through the first-person perspective of his partner, Dr. John H. Watson. The individual stories were serialized in The Strand Magazine between 1891 and 1892, increasing Doyle’s popularity. Most of the tales attempt to identify and rectify social injustices among European aristocrats in the twentieth century.In “A Scandal in Bohemia,” the Bohemian King enlists Holmes to recover a salacious photograph of him in the company of Irene Adler, a famous opera singer. If this photo is exposed, it will ruin the King’s chances of marrying the King of Scandinavia’s daughter. Holmes disguises himself at Adler’s wedding to her true love, coyly locating the hidden photograph in the process. "
         },
         "5":
@@ -38,15 +38,15 @@
             "name":"Sherlock Holmes: Volume 2",
             "author":"Sir Arthur Conan Doyle",
             "yop":"2018",
-            "img_file" : "Book5"
-            "summary"
+            "img_file" : "Book5.jfif",
+            "summary" : "Following the 1893 publication of what was meant to be the last Sherlock Holmes story, Sir Arthur Conan Doyle relented under the pressure of intense public demand and irresistible financial offers from British and American publishers and revived the celebrated sleuth. This audiobook collection of six unabridged stories includes -The Adventure of the Sussex Vampire, in which a mother may be both murderer and monster; The Adventure of the Creeping Man, in which a professor's mysterious malady hints at darker things; and The Adventure of the Speckled Band, in which a woman is terrified she'll join her sister in death at a creepy country house. The Adventure of the Crooked Man, The Adventure of the Greek Interpreter, and The Adventure of the Naval Treaty wrap up this second volume of the audio series read by celebrated actor Edward Hardwicke."
         },
         "6":
         {
             "name":"Sherlock Holmes: Volume 3",
             "author":"Sir Arthur Conan Doyle",
             "yop":"1892",
-            "img_file" : "Book6",
+            "img_file" : "Book6.jpg",
             "summary":"The adventures of Sherlock Holmes In general the stories in The Adventures of Sherlock Holmes identify, and try to correct, social injustices. Holmes is portrayed as offering a new, fairer sense of justice. The stories were well received, and boosted the subscriptions figures of The Strand Magazine, prompting Doyle to be able to demand more money for his next set of stories. The first story, 'A Scandal in Bohemia', includes the character of Irene Adler, who, despite being featured only within this one story by Doyle, is a prominent character in modern Sherlock Holmes adaptations, generally as a love interest for Holmes. Doyle included four of the twelve stories from this collection in his twelve favourite Sherlock Holmes stories, picking 'The Adventure of the Speckled Band' as his overall favourite. Author : Arthur Conan Doyle Publisher George Newnes"
         },
         "7":
@@ -54,7 +54,7 @@
             "name":"The Famous Five",
             "author":"Enid Blyton",
             "yop":"1942",
-            "img_file" : "Book7",
+            "img_file" : "Book7.jpg",
             "summary":"Famous Five The vast majority of the stories take place in the children's school holidays. Each time they meet they get caught up in an adventure, often involving criminals or lost treasure. Sometimes the scene is set close to George's family home at Kirrin Cottage, such as the picturesque Kirrin Island, owned by George and her family in Kirrin Bay. George's own home and various other houses the children visit or stay in are hundreds of years old and often contain secret passages or smugglers' tunnels. In some books the children go camping in the countryside, on a hike or holiday together elsewhere. However, the settings are almost always rural and enable the children to discover the simple joys of cottages, islands, the English and Welsh countryside and sea shores, as well as an outdoor life of picnics, bicycle trips and swimming. Author : Enid Blyton Publisher : Hodder & Stoughton"
         },
         "8":
@@ -62,14 +62,15 @@
             "name":"The Canterville Ghost",
             "author":"Oscar Wilde",
             "yop":"2018",
-            "img_file" : "Book8"
+            "img_file" : "Book8.jpg",
+            "summary" : "The Canterville Ghost  is a humorous short story by Oscar Wilde. It was the first of Wilde's stories to be published, appearing in two parts in The Court and Society Review, 23 February and 2 March 1887.[1] Wallace Goldsmith - Oscar Wilde - Canterville Ghost - He met with a severe fall.The story is about an American family who moved to a castle haunted by the ghost of a dead English nobleman, who killed his wife and was then walled in and starved to death by his wife's brothers. It has been adapted for the stage and screen several times."
         },
         "9":
         {
             "name":"The Jungle Book",
             "author":"Rudyard Kipling",
             "yop":"1887",
-            "img_file" : "Book9",
+            "img_file" : "Book9.jpg",
             "summary":"jungle book A major theme in the book is abandonment followed by fostering, as in the life of Mowgli, echoing Kipling's own childhood. The theme is echoed in the triumph of protagonists including Rikki-Tikki-Tavi and The White Seal over their enemies, as well as Mowgli's. Another important theme is of law and freedom; the stories are not about animal behaviour, still less about the Darwinian struggle for survival, but about human archetypes in animal form. They teach respect for authority, obedience, and knowing one's place in society with 'the law of the jungle', but the stories also illustrate the freedom to move between different worlds, such as when Mowgli moves between the jungle and the village. Critics have also noted the essential wildness and lawless energies in the stories, reflecting the irresponsible side of human nature. The Jungle Book has remained popular, partly through its many adaptations for film and other media. Author :  Rudyard Kipling Publisher : Macmillan"
         },
         "10":
@@ -77,7 +78,7 @@
             "name":"Peter Pan",
             "author":"J. M. Barrie",
             "yop":"1904",
-            "img_file" : "Book10",
+            "img_file" : "Book10.jpg",
             "summary":"peter pan Peter Pan is a children’s novel by J. M. Barrie. It follows the adventures of the Darling children and Peter Pan, a boy who never grows up. Peter Pan flies into Wendy Darling’s room and convinces her and her brothers to come to Neverland with him and his fairy, Tinker Bell. In Neverland, Peter and the Darlings live with the lost boys, with Wendy acting as the boys’ mother. They also battle Captain Hook and his pirate crew. The Darlings return to London, where their parents adopt the lost boys. Peter remains in Neverland, but returns to take Wendy’s daughter on an adventure. Author James (J.M.) Barrie. publisher Hodder & Stoughton (UK) Charles Scribner's Sons (US)"
         },
         "11":
@@ -85,7 +86,7 @@
             "name":"Relativity : The Special and General Theory",
             "author":"Albert Einstein",
             "yop":"1915",
-            "img_file" : "Book11",
+            "img_file" : "Book11.jpg",
             "summary":"Relativity : the special and the general theory According to Einstein himself, this book is intended 'to give an exact insight into the theory of Relativity to those readers who, from a general scientific and philosophical point of view, are interested in the theory, but who are not conversant with the mathematical apparatus of theoretical physics.' When he wrote the book in 1916, Einstein's name was scarcely known outside the physics institutes. Having just completed his masterpiece, The General Theory of Relativity—which provided a brand-new theory of gravity and promised a new perspective on the cosmos as a whole—he set out at once to share his excitement with as wide a public as possible in this popular and accessible book. Author : Albert Einstein Publication : Penguin Classics"
         },
         "12":
@@ -93,7 +94,7 @@
             "name":"A Brief History of Time",
             "author":"Stephen Hawking",
             "yop":"1988",
-            "img_file" : "Book12",
+            "img_file" : "Book12.jpg",
             "summary":"A Brief History of Time In A Brief History of Time, Hawking writes in non-technical terms about the structure, origin, development and eventual fate of the Universe, which is the object of study of astronomy and modern physics. He talks about basic concepts like space and time, basic building blocks that make up the Universe (such as quarks) and the fundamental forces that govern it (such as gravity). He writes about cosmological phenomena such as the Big Bang and black holes. He discusses two major theories, general relativity and quantum mechanics, that modern scientists use to describe the Universe. Finally, he talks about the search for a unifying theory that describes everything in the Universe in a coherent manner. Author : Stephen Hawking Publication : Bantam Dell Publishing Group"
         },
         "13":
@@ -101,14 +102,16 @@
             "name":"The Extraordinary History of Human Origins",
             "author":"Piero and Alberto Angela",
             "yop":"2017",
-            "img_file" : "Book13"
+            "img_file" : "Book13.jpg",
+            "summary" : "KEY TAKE-AWAYS : The effect of the African and Indian continents slamming into Europe and Asia has had a profound impact on human history. Humans evolved in East Africa during a time of great climate variability. Glaciation during the Ice Age created the huge inland seaways of the Mississippi, Ohio, Missouri, Great Lake and St. Lawrence, a key geographical reason for the economic power of the United States. The flooding of the connection between Britain and France during the Ice Age made Britain an island, making it much easier for Britain to evolve into a Commercial society."
+           
         },
         "14":
         {
             "name":"Problems in General Physics",
             "author":"I. E. Irodov",
             "yop":"1979",
-            "img_file" : "Book14",
+            "img_file" : "Book14.jpg",
             "summary":"General problems in physics by I.E. Irodov This book on Problems in General Physics containing about 1900 problems with hints for solving the most complicated ones has been designed for students studying advanced course in Physics. The book has been divided into six parts covering Physical Fundamentals of Mechanics, Thermodynamics & Molecular Physics, Electrodynamics, Oscillations & Waves, Optics and Atomic & Nuclear Physics, each segregated into number of chapters. Each chapter in the book opens with a time-saving summary of the principal formulas for the relevant area of physics. As a rule the formulas are given without detailed explanation. Explanatory notes are given in those cases where misunderstandings may arise. The author has used all formulas in the SI system, except in Part six where the Gaussian system has been used. Also the main physical constants and tables are summarized at the end of the book along with the Periodic System of Elements and Table of Elementary Particles also covered in the book. At the beginning of each chapter summary of principal formulas has been given for clarifying relevant basic concepts. At the end of each chapter, unsolved practice exercises have been provided to help aspirants revise the concepts discussed in the chapter. Author : I.E. Irodov Publication : Arihant"
         },
         "15":
@@ -116,7 +119,8 @@
             "name":"Physics of the Body",
             "author":"J. M. Barrie",
             "yop":"2018",
-            "img_file" : "Book15"
+            "img_file" : "Book15.jpg",
+            "summary" : " ' Physics of the Human Body ' comprehensively addresses the physical and engineering aspects of human physiology by using and building on first-year college physics and mathematics. Topics include the mechanics of the static body and the body in motion, the materials properties of the body, muscles in the body, the energetics of body metabolism, fluid flow in the cardiovascular and respiratory systems, the acoustics of sound waves in speaking and hearing, vision and the optics of the eye, the electrical properties of the body, and the basic engineering principles of feedback and control in regulating all aspects of function. The goal of this text is to understand physical issues concerning the human body, in part by developing and then using simple and subsequently more refined models of the macrophysics of the human body. Many chapters include a brief review of the necessary physical principles. "
         }
     }
 }

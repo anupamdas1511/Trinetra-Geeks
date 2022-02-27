@@ -4,13 +4,13 @@
     font-family: sans-serif;
 }
 body{
-    background: #dee7e7;
+    background: #c4ecf7;
     height: 150vh;
 }
 nav{
     width: 100%;
     height: 12vh;
-    background: #9EE5FC;
+    background: rgb(158, 229, 252);
 }
 .login-form{
     padding: 5px;
@@ -34,7 +34,7 @@ nav{
 .login-form h2{
     font-size: 40px;
     text-transform: uppercase;
-    color: rgb(0, 0, 255);
+    color: rgb(24, 24, 148);
     margin: 34px 0;
 }
 .login-form .text{

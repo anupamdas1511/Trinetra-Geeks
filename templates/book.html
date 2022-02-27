@@ -14,7 +14,11 @@
             <div class="logo"><a href="/"><img src="../static/images/logo.jpg" id="logo" alt=""></a></div>
             <ul>
                 <li><a href="/about">About Us</a></li>
-                <li><a href="/dashboard"><button id="user" title={{user}}><img src="../static/images/PngItem_5040528.png" alt="user"></button></a></li>
+                <li>{% if user == 'login' %}
+                    <div class="logo"><a href="/dashboard"><button id="btn">LOGIN</button></a></div>
+                {% else %}
+                    <a href="/dashboard"><button id="user" title={{user}}><img src="../static/images/PngItem_5040528.png" alt="user"></button></a></li>
+                {% endif %}</li>
             </ul>
         </nav>
       </div>

@@ -59,7 +59,7 @@ nav ul a{
 }
 
 .section{
-    display: block ruby;
+    display: flex;
     overflow-x: scroll;
 }
 
@@ -182,4 +182,9 @@ height: 70px;
 position: relative;
 left: 25px;
 top: 7px;
+}
+
+#btn{
+    padding: 7px 11px;
+    margin: 13px;
 }

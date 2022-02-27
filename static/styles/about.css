@@ -1,11 +1,11 @@
 .about_pics{
-    width: 245px;
+    width: 246px;
 border-radius: 50%;
 aspect-ratio: 1/1;
 object-fit: cover;
-border: solid 20px #3982cf;
+border: solid 15px #529dee;
 position: relative;
-left: 34%;
+left: 30%;
 top: 37px;
 }
 
@@ -13,7 +13,7 @@ top: 37px;
     font-size: 56px;
 text-align: center;
 padding-top: 65px;
-color: #3982cf;
+color: #262d8d;
 }
 
 .description{
