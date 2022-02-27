@@ -102,6 +102,10 @@ def logout():
     session.pop('user')
     return redirect("/")
 
+@app.route("/about")
+def about():
+    return render_template("about.html")
+
 
 @app.route("/book/<string:book_no>")
 def books_func(book_no):

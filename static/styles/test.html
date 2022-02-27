@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEXT EFFECT</title>
+    <!-- <link rel="stylesheet" href="styletext.css"> -->
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(137, 241, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.title{
+    font-size: 5rem;
+    padding: 0.5rem , 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(44, 48, 73);
+}
+
+.text{
+    position: absolute;
+
+}
+
+.text span{
+    position: absolute;
+    background-color: rgba(38, 1, 170, 0.884);
+    transition: .5s;
+}
+
+.horizontal{
+    width: 100%;
+    height: 8px;
+}
+
+.horizontal.first{
+    top: 0;
+    left: 0;
+
+}
+
+.horizontal.second{
+    right: 0;
+    bottom: 0;
+    
+}
+
+.text:hover .horizontal.first{
+    width: 0px;
+    transform: translate(-1000px);
+}
+
+.text:hover .horizontal.second{
+    width: 0px;
+    transform: translate(1000px);
+}
+.vertical{
+    height: 100%;
+    width: 8px;
+
+}
+
+.vertical.first{
+    top: 0;
+    left: 0;
+    transform: translate(-0.75rem,-1000px);
+}
+
+.vertical.second{
+    bottom: 0;
+    right: 0;
+    transform: translate(0.75rem,1000px);
+}
+
+.text:hover .vertical.first{
+    height: 100%;
+    transform: translate(-0.75rem,0px);
+}
+
+.text:hover .vertical.second{
+    height: 100%;
+    transform: translate(0.75rem,0px);
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="text">
+            
+            <h1 class="title"> Trinetra </h1>
+            <img src ="C:\Users\study\Downloads\TAN Twinkle (2).png" alt="logo" width ="300" height = "300">
+            <span class="vertical first"></span>
+            <span class="vertical second"></span>
+            <span class="horizontal first"></span>
+            <span class="horizontal second"></span>
+        </div>
+    </div>    
+</body>
+</html>
