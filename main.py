@@ -37,6 +37,11 @@ def home():
 
 @app.route("/login",methods=['GET','POST'])
 def login():
+    if 'user' in session:
+        user = session['user']
+    
+    else:
+        user = "login"
     if (request.method == 'POST'):
         username = request.form.get('name')
         userpass = request.form.get('pass')
@@ -54,15 +59,20 @@ def login():
             flash("user not registered","error")
             print("user not registered")
 
-    return render_template("login.html")
+    return render_template("login.html",user = user,book = book)
 
 
 
 @app.route("/dashboard")
 def dashboard():
     if 'user' in session:
+        user = session['user']
+    
+    else:
+        user = "login"
+    if 'user' in session:
         if (session['user'] in params['admin_users']):
-            return render_template("dashboard.html",user = session['user'])
+            return render_template("dashboard.html",user = session['user'],book = book)
     else:
         flash("you need to login first","suggestion")
         print("you need to login first","suggestion")
@@ -71,6 +81,11 @@ def dashboard():
 
 @app.route("/signup",methods=['GET','POST'])
 def signup():
+    if 'user' in session:
+        user = session['user']
+    
+    else:
+        user = "login"
     if (request.method == 'POST'):
         username = request.form.get('name')
         userpass = request.form.get('pass')
@@ -80,7 +95,7 @@ def signup():
                 admin_index = params['admin_users'].index(username)
                 flash("Your username is already registered","alert")
                 print("username already registerd")
-                return render_template("signup.html")
+                return render_template("signup.html",user = user,book = book)
             else:
                 params['admin_users'].append(username)
                 params['admin_passwords'].append(userpass)
@@ -91,7 +106,7 @@ def signup():
         else:
             flash("your passwords doesn't match",)
             print("your pass doesn't match")
-    return render_template("signup.html")
+    return render_template("signup.html",user = user,book = book)
 
 @app.route("/categories")
 def categories():
@@ -104,13 +119,23 @@ def logout():
 
 @app.route("/about")
 def about():
-    return render_template("about.html")
+    if 'user' in session:
+        user = session['user']
+    
+    else:
+        user = "login"
+    return render_template("about.html",user = user,book = book)
 
 
 @app.route("/book/<string:book_no>")
 def books_func(book_no):
+    if 'user' in session:
+        user = session['user']
+    
+    else:
+        user = "login"
     book_required = book[book_no]
-    return render_template("book.html",book = book_required)
+    return render_template("book.html",book = book_required,user = user)
 
 
 

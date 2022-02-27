@@ -60,11 +60,8 @@ nav ul a{
 
 .section{
     display: flex;
-    gap: 30px;
-    overflow-x: auto;
-}
-.section::-webkit-scrollbar{
-    display: none;
+
+    overflow-x: scroll;
 }
 
 .section_h{
@@ -186,4 +183,9 @@ height: 70px;
 position: relative;
 left: 25px;
 top: 7px;
+}
+
+#btn{
+    padding: 7px 11px;
+    margin: 13px;
 }
