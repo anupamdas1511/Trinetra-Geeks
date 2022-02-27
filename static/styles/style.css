@@ -60,6 +60,7 @@ nav ul a{
 
 .section{
     display: flex;
+
     overflow-x: scroll;
 }
 
