@@ -59,8 +59,12 @@ nav ul a{
 }
 
 .section{
-    display: block ruby;
-    overflow-x: scroll;
+    display: flex;
+    gap: 30px;
+    overflow-x: auto;
+}
+.section::-webkit-scrollbar{
+    display: none;
 }
 
 .section_h{

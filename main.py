@@ -13,7 +13,7 @@ with open('config.json','rt') as f:
 params = json.loads(config)["params"]
 
 # books file
-with open('book.json','rt') as f:
+with open('book.json',encoding="utf8") as f:
     books=f.read()
 
 book = json.loads(books)["books"]
